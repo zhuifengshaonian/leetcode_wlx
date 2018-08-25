@@ -22,7 +22,7 @@ public class Subject_01_Two_SumTest {
 
 
         for (int i : result) {
-            System.out.println("num is %d" + i);
+            System.out.println("num is " + i);
         }
 
     }

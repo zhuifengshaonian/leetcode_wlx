@@ -1,6 +1,11 @@
 package com.leetcode.test.subject;
 
-public class Subject_01_Two_Sum {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Subject_01_Two_Sum
+{
 
     /**
      * 给定 nums = [2, 7, 11, 15], target = 9
@@ -10,10 +15,19 @@ public class Subject_01_Two_Sum {
      */
 
 
-    public int[] twoSum(int[] nums, int target) {
-        for (int i : nums) {
-            for (int j : nums) {
-                if (i + j == target) {
+    public int[] twoSum(int[] nums, int target)
+    {
+        if (nums == null || nums.length <2)
+        {
+            return new int[]{};
+        }
+        int len = nums.length;
+        for (int i = 0; i <= len - 2; i++)
+        {
+            for (int j = i + 1; j < len; j++)
+            {
+                if (nums[i] + nums[j] == target)
+                {
                     return new int[]{i, j};
                 }
             }

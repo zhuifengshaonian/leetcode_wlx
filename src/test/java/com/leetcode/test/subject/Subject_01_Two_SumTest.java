@@ -2,9 +2,8 @@ package com.leetcode.test.subject;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class Subject_01_Two_SumTest {
+public class Subject_01_Two_SumTest
+{
 
     /**
      * 给定 nums = [2, 7, 11, 15], target = 9
@@ -14,14 +13,16 @@ public class Subject_01_Two_SumTest {
      */
 
     @Test
-    public void twoSum() {
+    public void twoSum()
+    {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;
 
         int[] result = new Subject_01_Two_Sum().twoSum(nums, target);
 
 
-        for (int i : result) {
+        for (int i : result)
+        {
             System.out.println("num is " + i);
         }
 

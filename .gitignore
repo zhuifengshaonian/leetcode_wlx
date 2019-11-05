@@ -2,6 +2,9 @@
 ### Gradle template
 .gradle
 /build/
+/bin/
+/out/
+.idea/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -102,3 +105,7 @@ fabric.properties
 .idea/httpRequests
 
 /.idea/
+.project
+.DS_Store
+.classpath
+.settings/org.eclipse.buildship.core.prefs

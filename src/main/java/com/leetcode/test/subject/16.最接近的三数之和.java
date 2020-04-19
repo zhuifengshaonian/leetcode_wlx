@@ -1,3 +1,5 @@
+package com.leetcode.test.subject;
+
 /*
  * @lc app=leetcode.cn id=16 lang=java
  *
@@ -7,7 +9,7 @@
 // @lc code=start
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
-        
+        return 0;
     }
 }
 // @lc code=end

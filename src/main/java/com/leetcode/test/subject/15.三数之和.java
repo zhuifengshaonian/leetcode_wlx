@@ -1,3 +1,5 @@
+package com.leetcode.test.subject;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -6,8 +8,6 @@ import java.util.List;
  *
  * [15] 三数之和
  */
-
-import javax.lang.model.util.ElementScanner6;
 
 // @lc code=start
 class Solution {

@@ -9,7 +9,8 @@
 .project
 .classpath
 factoryConfiguration.json
-
+.vscode/
+bin/
 ### Java ###
 # Compiled class file
 *.class

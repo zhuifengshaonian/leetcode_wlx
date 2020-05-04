@@ -11,6 +11,8 @@
 factoryConfiguration.json
 .vscode/
 bin/
+.idea/
+*.iml
 ### Java ###
 # Compiled class file
 *.class

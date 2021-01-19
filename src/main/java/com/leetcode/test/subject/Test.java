@@ -4,12 +4,13 @@ import java.util.Arrays;
 
 public class Test {
 
+    
     public static void main(String[] args) {
         int[] nums = {1,5,1};
-        new Solution().nextPermutation(nums);
+        //new Solution().nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
-
+    
     static class Solution {
         public void nextPermutation(int[] nums) {
     
